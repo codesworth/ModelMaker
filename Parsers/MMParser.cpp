@@ -60,9 +60,6 @@ std::vector<string> MMParser::parseProtocols(string protocols) {
     boost::erase_all(protocols,"[");
     boost::erase_all(protocols,"]");
     std::vector<string> protos = split(protocols,(const char &)"+");
-    std::cout << "Thos is the rmeianing : " << protos[0] << std::endl;
-    std::cout << "Thos is the rmeianing : " << protos[1]<< std::endl;
-    std::cout << "Thos is the rmeianing : " << protos[2]<< std::endl;
     return protos;
 
 
