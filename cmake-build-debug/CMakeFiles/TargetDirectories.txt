@@ -1,0 +1,3 @@
+/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/CMakeFiles/ModelMaker.dir

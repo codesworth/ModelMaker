@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ModelMaker"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ModelMaker">
+				<Option output="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/ModelMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 ModelMaker"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ModelMaker/fast">
+				<Option output="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/ModelMaker" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ERROR_CODE_HEADER_ONLY"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 ModelMaker/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/redhand/Development/C++/Projects/ModelMaker/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Lexers/BaseLexer.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Lexers/BaseLexer.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMClass.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMClass.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMInitializer.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMInitializer.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMParams.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMParams.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMProperties.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Models/MMProperties.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Parsers/MMParser.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Parsers/MMParser.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Symbols/MMSymbols.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Symbols/MMSymbols.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Utils/MMUtils.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/Utils/MMUtils.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/__HEADERS.h">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/main.cpp">
+			<Option target="ModelMaker"/>
+		</Unit>
+		<Unit filename="/Users/redhand/Development/C++/Projects/ModelMaker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
